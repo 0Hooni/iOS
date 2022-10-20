@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A2B61928FBCA5300113BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2B61828FBCA5300113BB7 /* AppDelegate.swift */; };
-		05A2B61B28FBCA5300113BB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2B61A28FBCA5300113BB7 /* SceneDelegate.swift */; };
-		05A2B61D28FBCA5300113BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2B61C28FBCA5300113BB7 /* ViewController.swift */; };
-		05A2B62028FBCA5300113BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A2B61E28FBCA5300113BB7 /* Main.storyboard */; };
-		05A2B62228FBCA5500113BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A2B62128FBCA5500113BB7 /* Assets.xcassets */; };
-		05A2B62528FBCA5500113BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A2B62328FBCA5500113BB7 /* LaunchScreen.storyboard */; };
+		0541BDF7290110CE00C2E10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0541BDF6290110CE00C2E10C /* AppDelegate.swift */; };
+		0541BDF9290110CE00C2E10C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0541BDF8290110CE00C2E10C /* SceneDelegate.swift */; };
+		0541BDFB290110CE00C2E10C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0541BDFA290110CE00C2E10C /* ViewController.swift */; };
+		0541BDFE290110CE00C2E10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0541BDFC290110CE00C2E10C /* Main.storyboard */; };
+		0541BE00290110CF00C2E10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0541BDFF290110CF00C2E10C /* Assets.xcassets */; };
+		0541BE03290110CF00C2E10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0541BE01290110CF00C2E10C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05A2B61528FBCA5300113BB7 /* Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05A2B61828FBCA5300113BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05A2B61A28FBCA5300113BB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05A2B61C28FBCA5300113BB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05A2B61F28FBCA5300113BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05A2B62128FBCA5500113BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05A2B62428FBCA5500113BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		05A2B62628FBCA5500113BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0541BDF3290110CE00C2E10C /* Twitch Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitch Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0541BDF6290110CE00C2E10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0541BDF8290110CE00C2E10C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0541BDFA290110CE00C2E10C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0541BDFD290110CE00C2E10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0541BDFF290110CF00C2E10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0541BE02290110CF00C2E10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0541BE04290110CF00C2E10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05A2B61228FBCA5300113BB7 /* Frameworks */ = {
+		0541BDF0290110CE00C2E10C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05A2B60C28FBCA5300113BB7 = {
+		0541BDEA290110CE00C2E10C = {
 			isa = PBXGroup;
 			children = (
-				05A2B61728FBCA5300113BB7 /* Clone */,
-				05A2B61628FBCA5300113BB7 /* Products */,
+				0541BDF5290110CE00C2E10C /* Twitch Clone */,
+				0541BDF4290110CE00C2E10C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05A2B61628FBCA5300113BB7 /* Products */ = {
+		0541BDF4290110CE00C2E10C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05A2B61528FBCA5300113BB7 /* Clone.app */,
+				0541BDF3290110CE00C2E10C /* Twitch Clone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05A2B61728FBCA5300113BB7 /* Clone */ = {
+		0541BDF5290110CE00C2E10C /* Twitch Clone */ = {
 			isa = PBXGroup;
 			children = (
-				05A2B61828FBCA5300113BB7 /* AppDelegate.swift */,
-				05A2B61A28FBCA5300113BB7 /* SceneDelegate.swift */,
-				05A2B61C28FBCA5300113BB7 /* ViewController.swift */,
-				05A2B61E28FBCA5300113BB7 /* Main.storyboard */,
-				05A2B62128FBCA5500113BB7 /* Assets.xcassets */,
-				05A2B62328FBCA5500113BB7 /* LaunchScreen.storyboard */,
-				05A2B62628FBCA5500113BB7 /* Info.plist */,
+				0541BDF6290110CE00C2E10C /* AppDelegate.swift */,
+				0541BDF8290110CE00C2E10C /* SceneDelegate.swift */,
+				0541BDFA290110CE00C2E10C /* ViewController.swift */,
+				0541BDFC290110CE00C2E10C /* Main.storyboard */,
+				0541BDFF290110CF00C2E10C /* Assets.xcassets */,
+				0541BE01290110CF00C2E10C /* LaunchScreen.storyboard */,
+				0541BE04290110CF00C2E10C /* Info.plist */,
 			);
-			path = Clone;
+			path = "Twitch Clone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05A2B61428FBCA5300113BB7 /* Clone */ = {
+		0541BDF2290110CE00C2E10C /* Twitch Clone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05A2B62928FBCA5500113BB7 /* Build configuration list for PBXNativeTarget "Clone" */;
+			buildConfigurationList = 0541BE07290110CF00C2E10C /* Build configuration list for PBXNativeTarget "Twitch Clone" */;
 			buildPhases = (
-				05A2B61128FBCA5300113BB7 /* Sources */,
-				05A2B61228FBCA5300113BB7 /* Frameworks */,
-				05A2B61328FBCA5300113BB7 /* Resources */,
+				0541BDEF290110CE00C2E10C /* Sources */,
+				0541BDF0290110CE00C2E10C /* Frameworks */,
+				0541BDF1290110CE00C2E10C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Clone;
-			productName = Clone;
-			productReference = 05A2B61528FBCA5300113BB7 /* Clone.app */;
+			name = "Twitch Clone";
+			productName = "Twitch Clone";
+			productReference = 0541BDF3290110CE00C2E10C /* Twitch Clone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05A2B60D28FBCA5300113BB7 /* Project object */ = {
+		0541BDEB290110CE00C2E10C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					05A2B61428FBCA5300113BB7 = {
+					0541BDF2290110CE00C2E10C = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 05A2B61028FBCA5300113BB7 /* Build configuration list for PBXProject "Clone" */;
+			buildConfigurationList = 0541BDEE290110CE00C2E10C /* Build configuration list for PBXProject "Twitch Clone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 05A2B60C28FBCA5300113BB7;
-			productRefGroup = 05A2B61628FBCA5300113BB7 /* Products */;
+			mainGroup = 0541BDEA290110CE00C2E10C;
+			productRefGroup = 0541BDF4290110CE00C2E10C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05A2B61428FBCA5300113BB7 /* Clone */,
+				0541BDF2290110CE00C2E10C /* Twitch Clone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05A2B61328FBCA5300113BB7 /* Resources */ = {
+		0541BDF1290110CE00C2E10C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A2B62528FBCA5500113BB7 /* LaunchScreen.storyboard in Resources */,
-				05A2B62228FBCA5500113BB7 /* Assets.xcassets in Resources */,
-				05A2B62028FBCA5300113BB7 /* Main.storyboard in Resources */,
+				0541BE03290110CF00C2E10C /* LaunchScreen.storyboard in Resources */,
+				0541BE00290110CF00C2E10C /* Assets.xcassets in Resources */,
+				0541BDFE290110CE00C2E10C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05A2B61128FBCA5300113BB7 /* Sources */ = {
+		0541BDEF290110CE00C2E10C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A2B61D28FBCA5300113BB7 /* ViewController.swift in Sources */,
-				05A2B61928FBCA5300113BB7 /* AppDelegate.swift in Sources */,
-				05A2B61B28FBCA5300113BB7 /* SceneDelegate.swift in Sources */,
+				0541BDFB290110CE00C2E10C /* ViewController.swift in Sources */,
+				0541BDF7290110CE00C2E10C /* AppDelegate.swift in Sources */,
+				0541BDF9290110CE00C2E10C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		05A2B61E28FBCA5300113BB7 /* Main.storyboard */ = {
+		0541BDFC290110CE00C2E10C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05A2B61F28FBCA5300113BB7 /* Base */,
+				0541BDFD290110CE00C2E10C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		05A2B62328FBCA5500113BB7 /* LaunchScreen.storyboard */ = {
+		0541BE01290110CF00C2E10C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05A2B62428FBCA5500113BB7 /* Base */,
+				0541BE02290110CF00C2E10C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		05A2B62728FBCA5500113BB7 /* Debug */ = {
+		0541BE05290110CF00C2E10C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		05A2B62828FBCA5500113BB7 /* Release */ = {
+		0541BE06290110CF00C2E10C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,21 +280,19 @@
 			};
 			name = Release;
 		};
-		05A2B62A28FBCA5500113BB7 /* Debug */ = {
+		0541BE08290110CF00C2E10C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9JZYRP3D46;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clone/Info.plist;
+				INFOPLIST_FILE = "Twitch Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,32 +300,27 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni.Clone;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.Twitch-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		05A2B62B28FBCA5500113BB7 /* Release */ = {
+		0541BE09290110CF00C2E10C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9JZYRP3D46;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Clone/Info.plist;
+				INFOPLIST_FILE = "Twitch Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,11 +328,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni.Clone;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.Twitch-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05A2B61028FBCA5300113BB7 /* Build configuration list for PBXProject "Clone" */ = {
+		0541BDEE290110CE00C2E10C /* Build configuration list for PBXProject "Twitch Clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05A2B62728FBCA5500113BB7 /* Debug */,
-				05A2B62828FBCA5500113BB7 /* Release */,
+				0541BE05290110CF00C2E10C /* Debug */,
+				0541BE06290110CF00C2E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05A2B62928FBCA5500113BB7 /* Build configuration list for PBXNativeTarget "Clone" */ = {
+		0541BE07290110CF00C2E10C /* Build configuration list for PBXNativeTarget "Twitch Clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05A2B62A28FBCA5500113BB7 /* Debug */,
-				05A2B62B28FBCA5500113BB7 /* Release */,
+				0541BE08290110CF00C2E10C /* Debug */,
+				0541BE09290110CF00C2E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05A2B60D28FBCA5300113BB7 /* Project object */;
+	rootObject = 0541BDEB290110CE00C2E10C /* Project object */;
 }

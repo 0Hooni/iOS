@@ -73,7 +73,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lQ-BI-efh">
                                 <rect key="frame" x="0.0" y="97" width="390" height="713"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-xp-m0L">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-xp-m0L">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1523"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팔로잉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9A-o8-1dg">
@@ -1180,7 +1180,7 @@
                                             <constraint firstItem="7bf-d6-4n6" firstAttribute="leading" secondItem="YkJ-xp-m0L" secondAttribute="leading" constant="16" id="sJM-U6-FNW"/>
                                             <constraint firstItem="DDM-W2-GPU" firstAttribute="top" secondItem="QZE-Di-Fto" secondAttribute="bottom" constant="8" symbolic="YES" id="ttK-5M-byr"/>
                                             <constraint firstItem="DDM-W2-GPU" firstAttribute="leading" secondItem="YkJ-xp-m0L" secondAttribute="leading" constant="16" id="vI7-qw-HiC"/>
-                                            <constraint firstAttribute="height" constant="2220" id="wM5-Kh-7zU"/>
+                                            <constraint firstAttribute="height" constant="1523" id="wM5-Kh-7zU"/>
                                             <constraint firstItem="QZE-Di-Fto" firstAttribute="top" secondItem="3W2-gv-cN1" secondAttribute="bottom" constant="30" id="yMc-21-iY8"/>
                                         </constraints>
                                     </view>
@@ -1189,7 +1189,7 @@
                                     <constraint firstItem="YkJ-xp-m0L" firstAttribute="width" secondItem="En9-IH-cds" secondAttribute="width" id="4OA-3E-mSg"/>
                                     <constraint firstItem="YkJ-xp-m0L" firstAttribute="trailing" secondItem="sjQ-oq-eWN" secondAttribute="trailing" constant="358" id="g5e-yt-KHK"/>
                                     <constraint firstItem="YkJ-xp-m0L" firstAttribute="top" secondItem="sjQ-oq-eWN" secondAttribute="top" id="neo-nn-Nez"/>
-                                    <constraint firstItem="YkJ-xp-m0L" firstAttribute="bottom" secondItem="sjQ-oq-eWN" secondAttribute="bottom" constant="705" id="uyS-MT-KG7"/>
+                                    <constraint firstItem="YkJ-xp-m0L" firstAttribute="bottom" secondItem="sjQ-oq-eWN" secondAttribute="bottom" constant="8" id="uyS-MT-KG7"/>
                                     <constraint firstItem="YkJ-xp-m0L" firstAttribute="leading" secondItem="sjQ-oq-eWN" secondAttribute="leading" id="yTT-Wg-nyt"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="sjQ-oq-eWN"/>

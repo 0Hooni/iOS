@@ -9,10 +9,16 @@ import UIKit
 
 class PayViewController: UIViewController {
 
+    @IBOutlet weak var cardPageView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        cardPageView.layer.shadowOpacity = 0.8
+        cardPageView.layer.shadowOffset = CGSize(width: 0, height: 0)
+        cardPageView.layer.shadowRadius = 6
+        
     }
     
 

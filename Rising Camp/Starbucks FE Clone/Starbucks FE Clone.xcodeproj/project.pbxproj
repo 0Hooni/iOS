@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058F6F13290BFB430092649E /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F6F12290BFB430092649E /* DetailInfoViewController.swift */; };
 		05EDEC242906EBFD00837576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC232906EBFD00837576 /* AppDelegate.swift */; };
 		05EDEC262906EBFD00837576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC252906EBFD00837576 /* SceneDelegate.swift */; };
 		05EDEC282906EBFD00837576 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC272906EBFD00837576 /* HomeViewController.swift */; };
@@ -17,9 +18,11 @@
 		05EDEC3A2907FF6000837576 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC392907FF6000837576 /* OrderViewController.swift */; };
 		05EDEC3C2907FF6800837576 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC3B2907FF6800837576 /* ShopViewController.swift */; };
 		05EDEC3E2907FF7200837576 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDEC3D2907FF7200837576 /* OtherViewController.swift */; };
+		05F91BDB290A8EDD00F4B9CA /* RCMDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F91BDA290A8EDD00F4B9CA /* RCMDListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		058F6F12290BFB430092649E /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
 		05EDEC202906EBFD00837576 /* Starbucks FE Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starbucks FE Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EDEC232906EBFD00837576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EDEC252906EBFD00837576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		05EDEC392907FF6000837576 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		05EDEC3B2907FF6800837576 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		05EDEC3D2907FF7200837576 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		05F91BDA290A8EDD00F4B9CA /* RCMDListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCMDListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				05EDEC3B2907FF6800837576 /* ShopViewController.swift */,
 				05EDEC3D2907FF7200837576 /* OtherViewController.swift */,
 				05EDEC292906EBFD00837576 /* Main.storyboard */,
+				058F6F12290BFB430092649E /* DetailInfoViewController.swift */,
+				05F91BDA290A8EDD00F4B9CA /* RCMDListViewController.swift */,
 				05EDEC2C2906EBFE00837576 /* Assets.xcassets */,
 				05EDEC2E2906EBFE00837576 /* LaunchScreen.storyboard */,
 				05EDEC312906EBFE00837576 /* Info.plist */,
@@ -150,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F91BDB290A8EDD00F4B9CA /* RCMDListViewController.swift in Sources */,
 				05EDEC282906EBFD00837576 /* HomeViewController.swift in Sources */,
 				05EDEC3A2907FF6000837576 /* OrderViewController.swift in Sources */,
 				05EDEC3E2907FF7200837576 /* OtherViewController.swift in Sources */,
@@ -157,6 +164,7 @@
 				05EDEC242906EBFD00837576 /* AppDelegate.swift in Sources */,
 				05EDEC262906EBFD00837576 /* SceneDelegate.swift in Sources */,
 				05EDEC382907FF5300837576 /* PayViewController.swift in Sources */,
+				058F6F13290BFB430092649E /* DetailInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

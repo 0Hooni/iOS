@@ -69,11 +69,17 @@ class OrderViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+
         // Back 버튼 타이틀 제거시 이전 뷰의 타이틀이 없어져서 LifeCycle을 이용해서 해결
         self.navigationItem.title = "Order"
     }
 
+    
+//    override func viewDidDisappear(_ animated: Bool) {
+//        super.viewDidDisappear(animated)
+//
+//        self.navigationItem.title = ""
+//    }
     /*
     // MARK: - Navigation
 

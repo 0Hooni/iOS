@@ -247,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="1456.9230769230769" y="560.18957345971558"/>
         </scene>
-        <!--Order View Controller-->
+        <!--Order-->
         <scene sceneID="mMh-LA-wl4">
             <objects>
                 <viewController id="R8E-dQ-v2P" customClass="OrderViewController" customModule="Starbucks_FE_Clone" customModuleProvider="target" sceneMemberID="viewController">
@@ -646,7 +646,7 @@
                             <constraint firstItem="YtB-mO-Cio" firstAttribute="top" secondItem="txz-Px-sby" secondAttribute="top" id="xJi-6v-eRY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="JlT-gk-Upb">
+                    <navigationItem key="navigationItem" title="Order" id="JlT-gk-Upb">
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="Hge-tt-Ck6">
                             <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
@@ -1265,7 +1265,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ow-17-bic">
-                                        <rect key="frame" x="0.0" y="-143" width="390" height="900"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="900"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bvy-cH-pqJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="390"/>
@@ -1357,8 +1357,8 @@
                                     <constraint firstItem="6ow-17-bic" firstAttribute="width" secondItem="ocZ-CV-QXj" secondAttribute="width" id="084-rc-VDn"/>
                                     <constraint firstItem="6ow-17-bic" firstAttribute="leading" secondItem="RDp-6g-1ry" secondAttribute="leading" id="G0q-MH-27J"/>
                                     <constraint firstItem="6ow-17-bic" firstAttribute="trailing" secondItem="RDp-6g-1ry" secondAttribute="trailing" constant="390" id="HFC-QB-0xl"/>
-                                    <constraint firstItem="6ow-17-bic" firstAttribute="bottom" secondItem="RDp-6g-1ry" secondAttribute="bottom" constant="701" id="L1c-WJ-MY6"/>
-                                    <constraint firstItem="RDp-6g-1ry" firstAttribute="top" secondItem="6ow-17-bic" secondAttribute="top" constant="143" id="g9o-pR-CkX"/>
+                                    <constraint firstItem="6ow-17-bic" firstAttribute="bottom" secondItem="RDp-6g-1ry" secondAttribute="bottom" constant="844" id="L1c-WJ-MY6"/>
+                                    <constraint firstItem="RDp-6g-1ry" firstAttribute="top" secondItem="6ow-17-bic" secondAttribute="top" id="g9o-pR-CkX"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="RDp-6g-1ry"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ocZ-CV-QXj"/>

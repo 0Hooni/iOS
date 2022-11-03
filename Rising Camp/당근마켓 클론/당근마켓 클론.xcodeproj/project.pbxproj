@@ -17,6 +17,7 @@
 		0508AD0129137B6E0009C86E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508AD0029137B6E0009C86E /* Test.swift */; };
 		0508AD0429137BEC0009C86E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508AD0229137BEC0009C86E /* CustomCollectionViewCell.swift */; };
 		0508AD0529137BEC0009C86E /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0508AD0329137BEC0009C86E /* CustomCollectionViewCell.xib */; };
+		05F8CD192913CD9F001CA6E5 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8CD182913CD9F001CA6E5 /* ProductDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0508AD0029137B6E0009C86E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		0508AD0229137BEC0009C86E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		0508AD0329137BEC0009C86E /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		05F8CD182913CD9F001CA6E5 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0508ACF8291379520009C86E /* Info.plist */,
 				0508AD0229137BEC0009C86E /* CustomCollectionViewCell.swift */,
 				0508AD0329137BEC0009C86E /* CustomCollectionViewCell.xib */,
+				05F8CD182913CD9F001CA6E5 /* ProductDetailViewController.swift */,
 			);
 			path = "당근마켓 클론";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				0508ACEF291379510009C86E /* HomeViewController.swift in Sources */,
 				0508AD0429137BEC0009C86E /* CustomCollectionViewCell.swift in Sources */,
+				05F8CD192913CD9F001CA6E5 /* ProductDetailViewController.swift in Sources */,
 				0508ACEB291379510009C86E /* AppDelegate.swift in Sources */,
 				0508AD0129137B6E0009C86E /* Test.swift in Sources */,
 				0508ACFF291379850009C86E /* ChatViewController.swift in Sources */,

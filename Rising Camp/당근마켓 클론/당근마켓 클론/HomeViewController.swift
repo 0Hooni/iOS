@@ -50,6 +50,16 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "productDetail", sender: nil)
+    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        guard let item = sender as? Test,
+//          let nextViewController = segue.destination
+//                as? ProductDetailViewController
+//        else { return }
+//        
+//    }
     private func registerXib() {
         let nibName = UINib(nibName: cellName, bundle: nil)
         collectionView.register(nibName, forCellWithReuseIdentifier: cellReuseIdentifier)

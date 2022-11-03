@@ -1,18 +1,17 @@
 //
-//  HomeCustomCollectionViewCell.swift
+//  CustomCollectionViewCell.swift
 //  당근마켓 클론
 //
-//  Created by 송영훈 on 2022/11/01.
+//  Created by 송영훈 on 2022/11/03.
 //
 
 import UIKit
 
-class HomeCustomCollectionViewCell: UICollectionViewCell {
+class CustomCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var productThumbnail: UIImageView!
+    @IBOutlet weak var productThunbnail: UIImageView!
     @IBOutlet weak var productName: UILabel!
-    @IBOutlet weak var sellerTown: UILabel!
-    @IBOutlet weak var uploadTimeGo: UILabel!
+    @IBOutlet weak var Town_Time: UILabel!
     @IBOutlet weak var productPrice: UILabel!
     
     @IBOutlet weak var chatCount: UILabel!

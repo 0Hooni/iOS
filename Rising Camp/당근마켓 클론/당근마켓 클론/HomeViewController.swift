@@ -2,73 +2,65 @@
 //  ViewController.swift
 //  당근마켓 클론
 //
-//  Created by 송영훈 on 2022/10/31.
+//  Created by 송영훈 on 2022/11/03.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    // MARK: variable
     let testList = Test.data
-    let cellName = "TestListCell"
-    let cellReuseIdentifier = "testCell"
-    
-    // MARK: Object
-    @IBOutlet weak var leftTitle: UIBarButtonItem!
-    @IBOutlet weak var mainCollectionView: UICollectionView!
-    
-    // MARK: Func
-    private func registerXib() {
-        let nibName = UINib(nibName: cellName, bundle: nil)
-        mainCollectionView.register(nibName, forCellWithReuseIdentifier: cellReuseIdentifier)
-    }
+    let cellName = "CustomCollectionViewCell"
+    let cellReuseIdentifier = "customCell"
 
-    // MARK: View Delegate
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         registerXib()
         // Do any additional setup after loading the view.
-        self.leftTitle.title = "용현1,4동"
         
-        mainCollectionView.delegate = self
-        mainCollectionView.dataSource = self
+        collectionView.delegate = self
+        collectionView.dataSource = self
     }
-    func numberFormatter(number: Int) -> String {       // 3자리마다 콤마로 끊어주는 함수
-        let numberFormatter = NumberFormatter()
-        numberFormatter.numberStyle = .decimal
-        
-        return numberFormatter.string(from: NSNumber(value: number))!
-    }
-
-
-}
-
-
-extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return testList.count
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = mainCollectionView.dequeueReusableCell(
+        guard let cell = collectionView.dequeueReusableCell(
             withReuseIdentifier: cellReuseIdentifier,
-            for: indexPath) as? HomeCustomCollectionViewCell
-            else { return UICollectionViewCell() }
-        
+            for: indexPath) as? CustomCollectionViewCell
+        else { return UICollectionViewCell() }
+            
         let target = testList[indexPath.row]
+            
         
-        let img = UIImage(named: "\(target.productName)_1.jpeg")
-        cell.productThumbnail.image = img
+        let img = UIImage(named: "\(target.productName)_1")
+        cell.productThunbnail.image = img
         cell.productName.text = target.productName
-        cell.sellerTown.text = target.town
-        cell.productPrice.text = numberFormatter(number: target.price)
+        cell.Town_Time.text = "\(target.town) • \(target.timeGo)"
+        cell.productPrice.text = "\(numberFormatter(number: target.price))원"
         cell.chatCount.text = numberFormatter(number: target.chatCount)
         cell.attentionCount.text = numberFormatter(number: target.attentionCount)
+
+        cell.productThunbnail.layer.cornerRadius = 5
+        
         
         return cell
     }
-    
-    
-    
+    private func registerXib() {
+        let nibName = UINib(nibName: cellName, bundle: nil)
+        collectionView.register(nibName, forCellWithReuseIdentifier: cellReuseIdentifier)
+    }
+    func numberFormatter(number: Int) -> String {       // 3자리마다 콤마로 끊어주는 함수
+            let numberFormatter = NumberFormatter()
+            numberFormatter.numberStyle = .decimal
+            
+            return numberFormatter.string(from: NSNumber(value: number))!
+        }
+
+
 }
+

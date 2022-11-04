@@ -9,7 +9,7 @@ import UIKit
 
 class ProductDetailViewController: UIViewController, UIScrollViewDelegate {
     
-    var target: Test! = nil
+    var target: productList! = nil
     
     @IBOutlet weak var productImage1: UIImageView!
     @IBOutlet weak var productImage2: UIImageView!

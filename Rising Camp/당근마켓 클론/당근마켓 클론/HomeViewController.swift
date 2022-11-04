@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    let testList = Test.data
+    let testList = productList.data
     let cellName = "CustomCollectionViewCell"
     let cellReuseIdentifier = "customCell"
     var nowIdx = 0

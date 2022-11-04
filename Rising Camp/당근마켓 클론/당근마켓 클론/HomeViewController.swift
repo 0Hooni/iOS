@@ -12,9 +12,13 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let testList = Test.data
     let cellName = "CustomCollectionViewCell"
     let cellReuseIdentifier = "customCell"
+    var nowIdx = 0
+
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var barTitle: UIBarButtonItem!
     
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         registerXib()
@@ -23,7 +27,13 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         collectionView.delegate = self
         collectionView.dataSource = self
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationItem.title = " "
+    }
     
+    
+    // MARK: Function
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return testList.count
@@ -33,9 +43,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             withReuseIdentifier: cellReuseIdentifier,
             for: indexPath) as? CustomCollectionViewCell
         else { return UICollectionViewCell() }
-            
         let target = testList[indexPath.row]
-            
+        
         
         let img = UIImage(named: "\(target.productName)_1")
         cell.productThunbnail.image = img
@@ -51,15 +60,17 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "productDetail", sender: nil)
+        nowIdx = indexPath.row
+        performSegue(withIdentifier: "productDetail", sender: indexPath.item)
+        
     }
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let item = sender as? Test,
-//          let nextViewController = segue.destination
-//                as? ProductDetailViewController
-//        else { return }
-//        
-//    }
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let nextVC = segue.destination as?
+            ProductDetailViewController {
+            nextVC.target = testList[nowIdx]
+        }
+    }
     private func registerXib() {
         let nibName = UINib(nibName: cellName, bundle: nil)
         collectionView.register(nibName, forCellWithReuseIdentifier: cellReuseIdentifier)
@@ -70,7 +81,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
             return numberFormatter.string(from: NSNumber(value: number))!
         }
-
+    
 
 }
 

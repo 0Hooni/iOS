@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "cat_basic.png",
+      "filename" : "Cat.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cat_basic 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cat_basic 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

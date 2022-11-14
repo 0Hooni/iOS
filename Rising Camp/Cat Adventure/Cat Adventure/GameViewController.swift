@@ -69,7 +69,7 @@ class GameViewController: UIViewController {
     func GameStart() {
         DispatchQueue.global().asyncAfter(deadline: .now() + 3) {
             print("DEBUG: GAME START")
-            self.MusicStart()
+//            self.MusicStart()
             self.TimerStart()
             print("DEBUG: GAME END")
         }

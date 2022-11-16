@@ -9,9 +9,9 @@ import UIKit
 import Alamofire
 import AFNetworking
 
-class ViewController: UIViewController {
+class FindViewController: UIViewController {
 
-    @IBOutlet weak var RestaurantName: UILabel!
+//    @IBOutlet weak var RestaurantName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +21,10 @@ class ViewController: UIViewController {
 }
 
 // MARK: - API
-extension ViewController {
+extension FindViewController {
     func didSuccess(_ response: RestaurantResponse) {
-        let data = response.response
+//        let data = response.response
         
-        self.RestaurantName.text = data.body.items.item.bsnNm
+//        self.RestaurantName.text = data.body.items.item.bsnNm
     }
 }

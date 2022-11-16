@@ -10,7 +10,7 @@ import Alamofire
 import AFNetworking
 
 class RestaurantRequest{
-    func getRestaurantData(_ vc: ViewController) {
+    func getRestaurantData(_ vc: FindViewController) {
         let url = "http://apis.data.go.kr/3510500/general_restaurants/getList?serviceKey=lFJpGBqJV2efZuUTJX%2Flndu%2BilGklnYbx8amGgV3ItzUUrVCa38U1aFKa2b%2F58vnLrJbhKjgPLnez5QMEpfY9g%3D%3D&type=JSON&pageNo=1&numOfRows=1"
         let params: Parameters = [
             "serviceKey" : "lFJpGBqJV2efZuUTJX%2Flndu%2BilGklnYbx8amGgV3ItzUUrVCa38U1aFKa2b%2F58vnLrJbhKjgPLnez5QMEpfY9g%3D%3D",

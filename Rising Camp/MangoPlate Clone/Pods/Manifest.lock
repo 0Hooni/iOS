@@ -22,12 +22,14 @@ PODS:
     - AFNetworking/NSURLSession
   - Alamofire (5.6.2)
   - FLKAutoLayout (0.2.1)
+  - naveridlogin-sdk-ios (4.1.5)
   - ORStackView (3.0.1):
     - FLKAutoLayout (~> 0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
   - Alamofire
+  - naveridlogin-sdk-ios
   - ORStackView (~> 3.0)
 
 SPEC REPOS:
@@ -35,14 +37,16 @@ SPEC REPOS:
     - AFNetworking
     - Alamofire
     - FLKAutoLayout
+    - naveridlogin-sdk-ios
     - ORStackView
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  naveridlogin-sdk-ios: 4351fe7162cd6b8b6dbb37bd7cc205304fa1d889
   ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
 
-PODFILE CHECKSUM: 06b20ff67e8ecd12c4922fba21b278aa8c023e61
+PODFILE CHECKSUM: d7c6eee72d92f6787791d4dfc74841a2ecda87bf
 
 COCOAPODS: 1.11.3

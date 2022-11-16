@@ -9,30 +9,30 @@
 /* Begin PBXBuildFile section */
 		050D6A3929237F2A00D80966 /* RestaurantResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D6A3829237F2A00D80966 /* RestaurantResource.swift */; };
 		050D6A3B2923819900D80966 /* RestaurantRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D6A3A2923819900D80966 /* RestaurantRequest.swift */; };
-		051D21A02923884600BF4CA0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D219E2923884600BF4CA0 /* StartViewController.swift */; };
-		051D21A12923884600BF4CA0 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051D219F2923884600BF4CA0 /* StartViewController.xib */; };
+		05289ECC2923EB3900607242 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289ECB2923EB3900607242 /* StartViewController.swift */; };
 		05A9124329237B98000AF4F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9124229237B98000AF4F7 /* AppDelegate.swift */; };
 		05A9124529237B98000AF4F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9124429237B98000AF4F7 /* SceneDelegate.swift */; };
-		05A9124729237B98000AF4F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9124629237B98000AF4F7 /* ViewController.swift */; };
+		05A9124729237B98000AF4F7 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9124629237B98000AF4F7 /* FindViewController.swift */; };
 		05A9124A29237B98000AF4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A9124829237B98000AF4F7 /* Main.storyboard */; };
 		05A9124C29237B99000AF4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A9124B29237B99000AF4F7 /* Assets.xcassets */; };
 		05A9124F29237B99000AF4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A9124D29237B99000AF4F7 /* LaunchScreen.storyboard */; };
+		05C868892923F72F00F27EDC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C868882923F72F00F27EDC /* ProfileViewController.swift */; };
 		F0DF4AD5BB7E465620A062C6 /* Pods_MangoPlate_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE0C4E682D3F5951EE2F331 /* Pods_MangoPlate_Clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		050D6A3829237F2A00D80966 /* RestaurantResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResource.swift; sourceTree = "<group>"; };
 		050D6A3A2923819900D80966 /* RestaurantRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRequest.swift; sourceTree = "<group>"; };
-		051D219E2923884600BF4CA0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		051D219F2923884600BF4CA0 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StartViewController.xib; path = ../StartViewController.xib; sourceTree = "<group>"; };
+		05289ECB2923EB3900607242 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		05A9123F29237B98000AF4F7 /* MangoPlate Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MangoPlate Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A9124229237B98000AF4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A9124429237B98000AF4F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05A9124629237B98000AF4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05A9124629237B98000AF4F7 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		05A9124929237B98000AF4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A9124B29237B99000AF4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A9124E29237B99000AF4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A9125029237B99000AF4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C868882923F72F00F27EDC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		15AF0DEEB49F699273FBF768 /* Pods-MangoPlate Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate Clone.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate Clone/Pods-MangoPlate Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		BCE0C4E682D3F5951EE2F331 /* Pods_MangoPlate_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlate_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D003EB1CFE452B84821FE976 /* Pods-MangoPlate Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate Clone.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate Clone/Pods-MangoPlate Clone.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +62,10 @@
 		050D6A3529237D6E00D80966 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				051D219E2923884600BF4CA0 /* StartViewController.swift */,
-				05A9124629237B98000AF4F7 /* ViewController.swift */,
+				05C8688A2924BDFE00F27EDC /* Custom Cell */,
+				05A9124629237B98000AF4F7 /* FindViewController.swift */,
+				05289ECB2923EB3900607242 /* StartViewController.swift */,
+				05C868882923F72F00F27EDC /* ProfileViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -82,7 +84,6 @@
 			children = (
 				05A9124829237B98000AF4F7 /* Main.storyboard */,
 				05A9124D29237B99000AF4F7 /* LaunchScreen.storyboard */,
-				051D219F2923884600BF4CA0 /* StartViewController.xib */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -116,6 +117,13 @@
 				05A9125029237B99000AF4F7 /* Info.plist */,
 			);
 			path = "MangoPlate Clone";
+			sourceTree = "<group>";
+		};
+		05C8688A2924BDFE00F27EDC /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Cell";
 			sourceTree = "<group>";
 		};
 		C7F5DEAD8317DB13A5EEDA32 /* Pods */ = {
@@ -196,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A9124F29237B99000AF4F7 /* LaunchScreen.storyboard in Resources */,
-				051D21A12923884600BF4CA0 /* StartViewController.xib in Resources */,
 				05A9124C29237B99000AF4F7 /* Assets.xcassets in Resources */,
 				05A9124A29237B98000AF4F7 /* Main.storyboard in Resources */,
 			);
@@ -253,10 +260,11 @@
 			files = (
 				050D6A3B2923819900D80966 /* RestaurantRequest.swift in Sources */,
 				050D6A3929237F2A00D80966 /* RestaurantResource.swift in Sources */,
-				05A9124729237B98000AF4F7 /* ViewController.swift in Sources */,
+				05A9124729237B98000AF4F7 /* FindViewController.swift in Sources */,
 				05A9124329237B98000AF4F7 /* AppDelegate.swift in Sources */,
+				05C868892923F72F00F27EDC /* ProfileViewController.swift in Sources */,
 				05A9124529237B98000AF4F7 /* SceneDelegate.swift in Sources */,
-				051D21A02923884600BF4CA0 /* StartViewController.swift in Sources */,
+				05289ECC2923EB3900607242 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

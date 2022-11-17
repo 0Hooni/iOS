@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050A33E72926557300A64FBE /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A33E52926557300A64FBE /* CustomCollectionViewCell.swift */; };
+		050A33E82926557300A64FBE /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050A33E62926557300A64FBE /* CustomCollectionViewCell.xib */; };
 		050D6A3929237F2A00D80966 /* RestaurantResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D6A3829237F2A00D80966 /* RestaurantResource.swift */; };
 		050D6A3B2923819900D80966 /* RestaurantRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D6A3A2923819900D80966 /* RestaurantRequest.swift */; };
 		05289ECC2923EB3900607242 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289ECB2923EB3900607242 /* StartViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050A33E52926557300A64FBE /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		050A33E62926557300A64FBE /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomCollectionViewCell.xib; path = ../ViewController/CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		050D6A3829237F2A00D80966 /* RestaurantResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResource.swift; sourceTree = "<group>"; };
 		050D6A3A2923819900D80966 /* RestaurantRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRequest.swift; sourceTree = "<group>"; };
 		05289ECB2923EB3900607242 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -70,13 +74,13 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		050D6A3629237D7900D80966 /* API */ = {
+		050D6A3629237D7900D80966 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				050D6A3829237F2A00D80966 /* RestaurantResource.swift */,
 				050D6A3A2923819900D80966 /* RestaurantRequest.swift */,
 			);
-			name = API;
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		050D6A3729237D8800D80966 /* Storyboard */ = {
@@ -84,6 +88,7 @@
 			children = (
 				05A9124829237B98000AF4F7 /* Main.storyboard */,
 				05A9124D29237B99000AF4F7 /* LaunchScreen.storyboard */,
+				050A33E62926557300A64FBE /* CustomCollectionViewCell.xib */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -110,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				050D6A3729237D8800D80966 /* Storyboard */,
-				050D6A3629237D7900D80966 /* API */,
+				050D6A3629237D7900D80966 /* Resource */,
 				050D6A3529237D6E00D80966 /* ViewController */,
 				050D6A3429237D6200D80966 /* Delegate */,
 				05A9124B29237B99000AF4F7 /* Assets.xcassets */,
@@ -122,6 +127,7 @@
 		05C8688A2924BDFE00F27EDC /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				050A33E52926557300A64FBE /* CustomCollectionViewCell.swift */,
 			);
 			name = "Custom Cell";
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				05A9124F29237B99000AF4F7 /* LaunchScreen.storyboard in Resources */,
 				05A9124C29237B99000AF4F7 /* Assets.xcassets in Resources */,
 				05A9124A29237B98000AF4F7 /* Main.storyboard in Resources */,
+				050A33E82926557300A64FBE /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				050D6A3B2923819900D80966 /* RestaurantRequest.swift in Sources */,
+				050A33E72926557300A64FBE /* CustomCollectionViewCell.swift in Sources */,
 				050D6A3929237F2A00D80966 /* RestaurantResource.swift in Sources */,
 				05A9124729237B98000AF4F7 /* FindViewController.swift in Sources */,
 				05A9124329237B98000AF4F7 /* AppDelegate.swift in Sources */,

@@ -15,8 +15,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
         // 네이버 로그인 화면이 새로 등장 -> 토큰을 요청하는 코드
-        NaverThirdPartyLoginConnection.getSharedInstance()?
-            .receiveAccessToken(URLContexts.first?.url)
     }
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

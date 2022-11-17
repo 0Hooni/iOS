@@ -10,21 +10,34 @@ import Alamofire
 import AFNetworking
 
 class FindViewController: UIViewController {
-
-//    @IBOutlet weak var RestaurantName: UILabel!
     
+    // MARK: - View Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         RestaurantRequest().getRestaurantData(self)
-    }
-}
 
-// MARK: - API
-extension FindViewController {
+        
+    }
+    
+    // MARK: - Function
     func didSuccess(_ response: RestaurantResponse) {
-//        let data = response.response
+        let data = response.response
         
 //        self.RestaurantName.text = data.body.items.item.bsnNm
     }
+}
+
+
+// MARK: - Collection View
+extension FindViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+    
 }

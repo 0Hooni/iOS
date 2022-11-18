@@ -14,43 +14,40 @@
         <!--Find View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FindViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FindViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="FindViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ugm-QM-hBk">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="v11-Gk-leF">
                                 <rect key="frame" x="0.0" y="91" width="375" height="721"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZMa-f0-3eD">
-                                    <size key="itemSize" width="128" height="128"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OKZ-9y-wVO">
+                                    <size key="itemSize" width="180" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FindViewCustomCell" id="a6i-Ja-A9q" customClass="CustomCollectionViewCell" customModule="MangoPlate_Clone" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="3iX-oD-JoF" customClass="CustomCollectionViewCell" customModule="MangoPlate_Clone" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OUC-c1-YtO">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UT1-lu-77t">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
+                                        <size key="customSize" width="180" height="200"/>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="2Zi-NI-xzh"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nX1-cv-KU1"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ugm-QM-hBk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EQg-vR-UXZ"/>
-                            <constraint firstAttribute="bottom" secondItem="ugm-QM-hBk" secondAttribute="bottom" id="JG9-3f-QGz"/>
-                            <constraint firstItem="ugm-QM-hBk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SYa-5z-67e"/>
-                            <constraint firstItem="ugm-QM-hBk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fgM-rS-9kS"/>
+                            <constraint firstItem="v11-Gk-leF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dkd-CJ-1CK"/>
+                            <constraint firstItem="v11-Gk-leF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XBA-c1-gom"/>
+                            <constraint firstAttribute="bottom" secondItem="v11-Gk-leF" secondAttribute="bottom" id="nP6-ds-7ZA"/>
+                            <constraint firstItem="v11-Gk-leF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pIC-m9-s6L"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dfP-cU-pZ7">
@@ -66,15 +63,18 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mainCollectionView" destination="v11-Gk-leF" id="ks6-fh-kef"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2440.8000000000002" y="-1074.384236453202"/>
         </scene>
-        <!--Start View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="2VW-oB-BQd">
             <objects>
-                <viewController storyboardIdentifier="StartViewController" id="AbL-k7-ycg" customClass="StartViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AbL-k7-ycg" customClass="LoginViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sda-8w-nUX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,46 +92,32 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="건너뛰기"/>
                                 <connections>
-                                    <action selector="skipButton:" destination="AbL-k7-ycg" eventType="touchUpInside" id="cHT-OD-TYt"/>
+                                    <action selector="touchUpSkipButton:" destination="AbL-k7-ycg" eventType="touchUpInside" id="IYQ-QK-s1s"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TM-7z-Tlv">
-                                <rect key="frame" x="60" y="438" width="255" height="40"/>
-                                <color key="backgroundColor" red="0.38629775170000002" green="0.74904260970000003" blue="0.3969351243" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yP-cx-bUk">
+                                <rect key="frame" x="107.66666666666669" y="458" width="160" height="40"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="xH5-Xd-T6P"/>
+                                    <constraint firstAttribute="height" constant="40" id="VlZ-39-cs4"/>
+                                    <constraint firstAttribute="width" constant="160" id="fAS-gM-MpT"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="네이버 로그인"/>
+                                <buttonConfiguration key="configuration" style="plain" title="카카오 로그인"/>
                                 <connections>
-                                    <action selector="loginButton:" destination="AbL-k7-ycg" eventType="touchUpInside" id="GbT-TG-itX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqK-0I-zcz">
-                                <rect key="frame" x="146" y="486" width="83" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="pmg-5i-CiL"/>
-                                </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="로그아웃"/>
-                                <connections>
-                                    <action selector="logoutButton:" destination="AbL-k7-ycg" eventType="touchUpInside" id="31R-aa-u7C"/>
+                                    <action selector="touchUpLoginButton:" destination="AbL-k7-ycg" eventType="touchUpInside" id="7JV-UI-oFJ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="blH-mP-XHI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="8yP-cx-bUk" firstAttribute="centerX" secondItem="Sda-8w-nUX" secondAttribute="centerX" id="0vR-zY-tLd"/>
                             <constraint firstItem="Ld0-Si-7su" firstAttribute="trailing" secondItem="blH-mP-XHI" secondAttribute="trailing" id="DrJ-Jr-v5S"/>
-                            <constraint firstItem="blH-mP-XHI" firstAttribute="trailing" secondItem="1TM-7z-Tlv" secondAttribute="trailing" constant="60" id="Nhh-qa-Y36"/>
                             <constraint firstAttribute="bottom" secondItem="Ld0-Si-7su" secondAttribute="bottom" id="OCU-7u-2xK"/>
-                            <constraint firstItem="1TM-7z-Tlv" firstAttribute="leading" secondItem="blH-mP-XHI" secondAttribute="leading" constant="60" id="RBa-qa-dhq"/>
-                            <constraint firstItem="blH-mP-XHI" firstAttribute="bottom" secondItem="1TM-7z-Tlv" secondAttribute="bottom" constant="300" id="eJf-M2-YKc"/>
-                            <constraint firstItem="tqK-0I-zcz" firstAttribute="centerX" secondItem="Sda-8w-nUX" secondAttribute="centerX" id="exZ-t5-pBW"/>
+                            <constraint firstItem="blH-mP-XHI" firstAttribute="bottom" secondItem="8yP-cx-bUk" secondAttribute="bottom" constant="280" id="TCQ-Hd-PnR"/>
                             <constraint firstItem="FKD-MV-HVR" firstAttribute="top" secondItem="blH-mP-XHI" secondAttribute="top" id="fnd-Yl-v4F"/>
-                            <constraint firstItem="tqK-0I-zcz" firstAttribute="top" secondItem="1TM-7z-Tlv" secondAttribute="bottom" constant="8" symbolic="YES" id="gNX-NE-wZN"/>
                             <constraint firstItem="Ld0-Si-7su" firstAttribute="leading" secondItem="blH-mP-XHI" secondAttribute="leading" id="xGD-mX-uhk"/>
                             <constraint firstItem="Ld0-Si-7su" firstAttribute="top" secondItem="Sda-8w-nUX" secondAttribute="top" id="ytt-dP-80D"/>
                             <constraint firstItem="blH-mP-XHI" firstAttribute="trailing" secondItem="FKD-MV-HVR" secondAttribute="trailing" constant="12" id="zB3-bq-BHN"/>
@@ -140,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0U-dO-oOr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-796" y="293"/>
+            <point key="canvasLocation" x="-447" y="293"/>
         </scene>
         <!--맛집찾기-->
         <scene sceneID="les-J0-qhY">
@@ -908,6 +894,9 @@
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -6,25 +6,19 @@
 //
 
 import UIKit
-import NaverThirdPartyLogin
 import Alamofire
+import KakaoSDKCommon
+import KakaoSDKUser
+import KakaoSDKAuth
 
 class ProfileViewController: UIViewController {
-    
-    
-    
     // MARK: - Component & Var
     @IBOutlet weak var naviBar: UINavigationBar!
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var profileNameLabel: UILabel!
     @IBOutlet weak var profileEditButton: UIButton!
-
-    var userName: String = ""
-    var imageURL: String = ""
-    var emailAddress: String = ""
-    var phoneNumber: String = ""
     
-    
+    var profileImageURL: URL?
     
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -48,9 +42,7 @@ class ProfileViewController: UIViewController {
         profileEditButton.layer.borderWidth = 1
         profileEditButton.layer.borderColor = UIColor.lightGray.cgColor
         
-        self.profileNameLabel.text = userName
-        guard let url = URL(string: imageURL) else { return }
-        self.profileImageView.load(url: url)
+        getDataFromKakao()  // 카카오 프로필 정보 가저오기
     }
     
     
@@ -70,7 +62,22 @@ class ProfileViewController: UIViewController {
             statusBarView?.backgroundColor = bgColor
         }
     }
-    // 프로토콜을 통한 로그인 데이터 수신
+    func getDataFromKakao() {
+        UserApi.shared.me() {(user, error) in
+            if let error = error {
+                print(error)
+            }
+            else {
+                print("me() success.")
+                
+                self.profileNameLabel.text = user?.kakaoAccount?.profile?.nickname
+                self.profileImageURL = user?.kakaoAccount?.profile?.profileImageUrl
+                self.profileImageView.load(url: self.profileImageURL!)
+                //do something
+                _ = user
+            }
+        }
+    }
 }
 
 // MARK: - UIImageView load URL Image

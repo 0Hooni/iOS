@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeaderTabbarCollectionViewCell" customModule="CoupangEats_Clone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="44"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWq-Vk-Vbx">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="42"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wn2-aG-qM5">
+                        <rect key="frame" x="0.0" y="42" width="170" height="2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="Hj7-RO-TaV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="RWq-Vk-Vbx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2To-7Q-f0j"/>
+                <constraint firstItem="wn2-aG-qM5" firstAttribute="top" secondItem="RWq-Vk-Vbx" secondAttribute="bottom" id="4Eg-BZ-Xe8"/>
+                <constraint firstAttribute="trailing" secondItem="wn2-aG-qM5" secondAttribute="trailing" id="Rp2-gg-Dem"/>
+                <constraint firstAttribute="trailing" secondItem="RWq-Vk-Vbx" secondAttribute="trailing" id="ZmJ-pu-E4S"/>
+                <constraint firstItem="wn2-aG-qM5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ahY-Gl-K7p"/>
+                <constraint firstAttribute="bottom" secondItem="wn2-aG-qM5" secondAttribute="bottom" id="gDJ-m0-1b1"/>
+                <constraint firstItem="RWq-Vk-Vbx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="z5l-lM-1ts"/>
+            </constraints>
+            <size key="customSize" width="170" height="44"/>
+            <connections>
+                <outlet property="tabIsSelectedView" destination="wn2-aG-qM5" id="aAn-o0-wjI"/>
+                <outlet property="tabLabel" destination="RWq-Vk-Vbx" id="6Th-wR-0gT"/>
+            </connections>
+            <point key="canvasLocation" x="236.64122137404578" y="13.380281690140846"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

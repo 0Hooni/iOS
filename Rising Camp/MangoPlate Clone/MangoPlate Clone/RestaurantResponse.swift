@@ -27,7 +27,7 @@ struct Body: Decodable {
 
 // MARK: - Items
 struct Items: Decodable {
-    var item: Item
+    var item: [Item]
 }
 
 // MARK: - Item
@@ -46,7 +46,9 @@ struct Item: Decodable {
         case lat
     }
 }
-
+enum Cat: String, Decodable {
+    case 일반음식점 = "일반음식점"
+}
 // MARK: - Header
 struct Header: Decodable {
     var resultCode, resultMsg: String

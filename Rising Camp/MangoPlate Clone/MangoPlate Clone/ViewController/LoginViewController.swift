@@ -28,6 +28,18 @@ class LoginViewController: UIViewController {
                     _ = oauthToken
                 }
             }
+        } else {
+            UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
+               if let error = error {
+                 print(error)
+               }
+               else {
+                print("loginWithKakaoAccount() success.")
+                   self.goToTabBar()
+                //do something
+                _ = oauthToken
+               }
+            }
         }
     }
     // 건너뛰기 버튼

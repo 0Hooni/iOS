@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		056B80142A18FB0200CBADEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80132A18FB0200CBADEE /* AppDelegate.swift */; };
 		056B80162A18FB0200CBADEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80152A18FB0200CBADEE /* SceneDelegate.swift */; };
-		056B80182A18FB0200CBADEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80172A18FB0200CBADEE /* ViewController.swift */; };
+		056B80182A18FB0200CBADEE /* NowTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80172A18FB0200CBADEE /* NowTimeViewController.swift */; };
 		056B801B2A18FB0200CBADEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056B80192A18FB0200CBADEE /* Main.storyboard */; };
 		056B801D2A18FB0200CBADEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056B801C2A18FB0200CBADEE /* Assets.xcassets */; };
 		056B80202A18FB0200CBADEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056B801E2A18FB0200CBADEE /* LaunchScreen.storyboard */; };
+		056B80282A1904B000CBADEE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80272A1904B000CBADEE /* TimerViewController.swift */; };
+		056B802A2A1904D100CBADEE /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B80292A1904D100CBADEE /* StopWatchViewController.swift */; };
+		056B802C2A1904DF00CBADEE /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B802B2A1904DF00CBADEE /* AlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		056B80102A18FB0200CBADEE /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056B80132A18FB0200CBADEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		056B80152A18FB0200CBADEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		056B80172A18FB0200CBADEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		056B80172A18FB0200CBADEE /* NowTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTimeViewController.swift; sourceTree = "<group>"; };
 		056B801A2A18FB0200CBADEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		056B801C2A18FB0200CBADEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056B801F2A18FB0200CBADEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056B80212A18FB0200CBADEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056B80272A1904B000CBADEE /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		056B80292A1904D100CBADEE /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		056B802B2A1904DF00CBADEE /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				056B80132A18FB0200CBADEE /* AppDelegate.swift */,
 				056B80152A18FB0200CBADEE /* SceneDelegate.swift */,
-				056B80172A18FB0200CBADEE /* ViewController.swift */,
+				056B80172A18FB0200CBADEE /* NowTimeViewController.swift */,
+				056B80272A1904B000CBADEE /* TimerViewController.swift */,
+				056B80292A1904D100CBADEE /* StopWatchViewController.swift */,
+				056B802B2A1904DF00CBADEE /* AlarmViewController.swift */,
 				056B80192A18FB0200CBADEE /* Main.storyboard */,
 				056B801C2A18FB0200CBADEE /* Assets.xcassets */,
 				056B801E2A18FB0200CBADEE /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056B80182A18FB0200CBADEE /* ViewController.swift in Sources */,
+				056B80282A1904B000CBADEE /* TimerViewController.swift in Sources */,
+				056B80182A18FB0200CBADEE /* NowTimeViewController.swift in Sources */,
+				056B802C2A1904DF00CBADEE /* AlarmViewController.swift in Sources */,
 				056B80142A18FB0200CBADEE /* AppDelegate.swift in Sources */,
 				056B80162A18FB0200CBADEE /* SceneDelegate.swift in Sources */,
+				056B802A2A1904D100CBADEE /* StopWatchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

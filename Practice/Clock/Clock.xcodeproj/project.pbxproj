@@ -62,18 +62,90 @@
 		056B80122A18FB0200CBADEE /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				056B80212A18FB0200CBADEE /* Info.plist */,
+				058DAD542A1A3A3100118C76 /* Resource */,
+				058DAD552A1A3A4500118C76 /* Source */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		058DAD542A1A3A3100118C76 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				056B80132A18FB0200CBADEE /* AppDelegate.swift */,
 				056B80152A18FB0200CBADEE /* SceneDelegate.swift */,
+				056B801C2A18FB0200CBADEE /* Assets.xcassets */,
+				058DAD562A1A3A6100118C76 /* Storyboard */,
+				058DAD572A1A3A9500118C76 /* APIService */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		058DAD552A1A3A4500118C76 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				058DAD582A1A3AB600118C76 /* VC */,
+				058DAD5A2A1A3AFA00118C76 /* Cell */,
+				058DAD5C2A1A3B0800118C76 /* Model */,
+				058DAD5B2A1A3B0100118C76 /* Design */,
+				058DAD592A1A3ABF00118C76 /* Class */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		058DAD562A1A3A6100118C76 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				056B801E2A18FB0200CBADEE /* LaunchScreen.storyboard */,
+				056B80192A18FB0200CBADEE /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		058DAD572A1A3A9500118C76 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		058DAD582A1A3AB600118C76 /* VC */ = {
+			isa = PBXGroup;
+			children = (
 				056B80172A18FB0200CBADEE /* NowTimeViewController.swift */,
 				056B80272A1904B000CBADEE /* TimerViewController.swift */,
 				056B80292A1904D100CBADEE /* StopWatchViewController.swift */,
 				056B802B2A1904DF00CBADEE /* AlarmViewController.swift */,
-				056B80192A18FB0200CBADEE /* Main.storyboard */,
-				056B801C2A18FB0200CBADEE /* Assets.xcassets */,
-				056B801E2A18FB0200CBADEE /* LaunchScreen.storyboard */,
-				056B80212A18FB0200CBADEE /* Info.plist */,
 			);
-			path = Clock;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		058DAD592A1A3ABF00118C76 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		058DAD5A2A1A3AFA00118C76 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		058DAD5B2A1A3B0100118C76 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		058DAD5C2A1A3B0800118C76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Clock
+//  Clone clock app
 //
-//  Created by 송영훈 on 2023/05/20.
+//  Created by 송영훈 on 2023/05/27.
 //
 
 import UIKit

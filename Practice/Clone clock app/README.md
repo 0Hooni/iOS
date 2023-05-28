@@ -5,3 +5,9 @@
 ## 개발일지
 ### 5월 27일
 - 프로젝트 생성
+    - Dark mode only 적용(Info.plist에 Appearence 추가)
+### 5월 28일
+- Tabbar 기본 구성 설정
+- 세계 시계 페이지 기본상태 구현
+- 추가버튼 눌렀을 때 화면 구현
+- 언어 Localization 추가

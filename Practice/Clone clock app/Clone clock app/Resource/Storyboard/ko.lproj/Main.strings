@@ -1,0 +1,24 @@
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "3kY-Ny-f8S"; */
+"3kY-Ny-f8S.placeholder" = "검색";
+
+/* Class = "UITabBarItem"; title = "World Clock"; ObjectID = "AP0-Ie-iI2"; */
+"AP0-Ie-iI2.title" = "세계 시계";
+
+/* Class = "UILabel"; text = "No World Clocks"; ObjectID = "Mfb-7q-8Xo"; */
+"Mfb-7q-8Xo.text" = "세계 시계 없음";
+
+/* Class = "UILabel"; text = "Choose a City"; ObjectID = "cHz-Cv-qzZ"; */
+"cHz-Cv-qzZ.text" = "도시 선택";
+
+/* Class = "UINavigationItem"; title = "World Clock"; ObjectID = "fSA-gC-tk0"; */
+"fSA-gC-tk0.title" = "시계 시계";
+
+/* Class = "UITabBarItem"; title = "Alarm"; ObjectID = "irU-CC-ygD"; */
+"irU-CC-ygD.title" = "알람";
+
+/* Class = "UITabBarItem"; title = "Timer"; ObjectID = "m9I-iR-y2C"; */
+"m9I-iR-y2C.title" = "타이머";
+
+/* Class = "UITabBarItem"; title = "Stopwatch"; ObjectID = "vIY-WJ-fL8"; */
+"vIY-WJ-fL8.title" = "스톱워치";

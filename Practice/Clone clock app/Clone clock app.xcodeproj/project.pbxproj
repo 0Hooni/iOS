@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055ADA1C2A235F5400BA4585 /* AddCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */; };
 		05D01E052A21D0E6001C283D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E042A21D0E6001C283D /* AppDelegate.swift */; };
 		05D01E072A21D0E6001C283D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E062A21D0E6001C283D /* SceneDelegate.swift */; };
-		05D01E092A21D0E6001C283D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E082A21D0E6001C283D /* ViewController.swift */; };
+		05D01E092A21D0E6001C283D /* GlobalTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E082A21D0E6001C283D /* GlobalTimeViewController.swift */; };
 		05D01E0C2A21D0E6001C283D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D01E0A2A21D0E6001C283D /* Main.storyboard */; };
 		05D01E0E2A21D0E7001C283D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D01E0D2A21D0E7001C283D /* Assets.xcassets */; };
 		05D01E112A21D0E7001C283D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D01E0F2A21D0E7001C283D /* LaunchScreen.storyboard */; };
+		05D01E222A21EDCD001C283D /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E212A21EDCD001C283D /* AlarmViewController.swift */; };
+		05D01E242A21EDE0001C283D /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E232A21EDE0001C283D /* StopwatchViewController.swift */; };
+		05D01E262A21EDE9001C283D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E252A21EDE9001C283D /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountryViewController.swift; sourceTree = "<group>"; };
+		055ADA1F2A236A1000BA4585 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		05D01E012A21D0E6001C283D /* Clone clock app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone clock app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D01E042A21D0E6001C283D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D01E062A21D0E6001C283D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05D01E082A21D0E6001C283D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05D01E082A21D0E6001C283D /* GlobalTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTimeViewController.swift; sourceTree = "<group>"; };
 		05D01E0B2A21D0E6001C283D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05D01E0D2A21D0E7001C283D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05D01E102A21D0E7001C283D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D01E122A21D0E7001C283D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D01E212A21EDCD001C283D /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		05D01E232A21EDE0001C283D /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		05D01E252A21EDE9001C283D /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +65,83 @@
 		05D01E032A21D0E6001C283D /* Clone clock app */ = {
 			isa = PBXGroup;
 			children = (
-				05D01E042A21D0E6001C283D /* AppDelegate.swift */,
-				05D01E062A21D0E6001C283D /* SceneDelegate.swift */,
-				05D01E082A21D0E6001C283D /* ViewController.swift */,
-				05D01E0A2A21D0E6001C283D /* Main.storyboard */,
-				05D01E0D2A21D0E7001C283D /* Assets.xcassets */,
-				05D01E0F2A21D0E7001C283D /* LaunchScreen.storyboard */,
 				05D01E122A21D0E7001C283D /* Info.plist */,
+				05D01E192A21D1C1001C283D /* Source */,
+				05D01E182A21D1B5001C283D /* Resource */,
 			);
 			path = "Clone clock app";
+			sourceTree = "<group>";
+		};
+		05D01E182A21D1B5001C283D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				05D01E042A21D0E6001C283D /* AppDelegate.swift */,
+				05D01E062A21D0E6001C283D /* SceneDelegate.swift */,
+				05D01E0D2A21D0E7001C283D /* Assets.xcassets */,
+				05D01E1F2A21D1F2001C283D /* API */,
+				05D01E1E2A21D1E5001C283D /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		05D01E192A21D1C1001C283D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				05D01E1D2A21D1E0001C283D /* Model */,
+				05D01E1C2A21D1DA001C283D /* Cell */,
+				05D01E1B2A21D1CA001C283D /* Class */,
+				05D01E1A2A21D1C6001C283D /* VC */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		05D01E1A2A21D1C6001C283D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				05D01E082A21D0E6001C283D /* GlobalTimeViewController.swift */,
+				05D01E212A21EDCD001C283D /* AlarmViewController.swift */,
+				05D01E232A21EDE0001C283D /* StopwatchViewController.swift */,
+				05D01E252A21EDE9001C283D /* TimerViewController.swift */,
+				055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		05D01E1B2A21D1CA001C283D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		05D01E1C2A21D1DA001C283D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		05D01E1D2A21D1E0001C283D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05D01E1E2A21D1E5001C283D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				05D01E0A2A21D0E6001C283D /* Main.storyboard */,
+				05D01E0F2A21D0E7001C283D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		05D01E1F2A21D1F2001C283D /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +186,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 05D01DF82A21D0E6001C283D;
 			productRefGroup = 05D01E022A21D0E6001C283D /* Products */;
@@ -138,8 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D01E092A21D0E6001C283D /* ViewController.swift in Sources */,
+				05D01E222A21EDCD001C283D /* AlarmViewController.swift in Sources */,
+				055ADA1C2A235F5400BA4585 /* AddCountryViewController.swift in Sources */,
+				05D01E092A21D0E6001C283D /* GlobalTimeViewController.swift in Sources */,
+				05D01E242A21EDE0001C283D /* StopwatchViewController.swift in Sources */,
 				05D01E052A21D0E6001C283D /* AppDelegate.swift in Sources */,
+				05D01E262A21EDE9001C283D /* TimerViewController.swift in Sources */,
 				05D01E072A21D0E6001C283D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +233,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				05D01E0B2A21D0E6001C283D /* Base */,
+				055ADA1F2A236A1000BA4585 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +380,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +410,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

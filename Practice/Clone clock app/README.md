@@ -8,6 +8,9 @@
     - Dark mode only 적용(Info.plist에 Appearence 추가)
 ### 5월 28일
 - Tabbar 기본 구성 설정
-- 세계 시계 페이지 기본상태 구현
-- 추가버튼 눌렀을 때 화면 구현
-- 언어 Localization 추가
+- 세계 시계 View 초기상태 구현
+- 세계 시계 추가 View 초기 구현
+- 언어 Localization 추가(차후 다른 View도 추가 예정)
+### 5월 29일
+- 알람 View 초기상태 구현
+- 알람 추가 View 초기 구현

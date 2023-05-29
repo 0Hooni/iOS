@@ -72,7 +72,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="Dw9-0H-APE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHz-Cv-qzZ">
@@ -128,6 +128,43 @@
             </objects>
             <point key="canvasLocation" x="832.5" y="1667.9577464788733"/>
         </scene>
+        <!--Add Alarm-->
+        <scene sceneID="f98-q4-Ptu">
+            <objects>
+                <viewController id="HrQ-0t-7J6" customClass="AddAlarmViewController" customModule="Clone_clock_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cOW-Rk-5qg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" id="3ER-Nm-tZQ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="220"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FNY-gq-LBK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3ER-Nm-tZQ" firstAttribute="leading" secondItem="FNY-gq-LBK" secondAttribute="leading" id="8fV-td-jcD"/>
+                            <constraint firstItem="3ER-Nm-tZQ" firstAttribute="top" secondItem="FNY-gq-LBK" secondAttribute="top" constant="8" id="jEG-h4-QV9"/>
+                            <constraint firstItem="3ER-Nm-tZQ" firstAttribute="trailing" secondItem="FNY-gq-LBK" secondAttribute="trailing" id="kbc-LJ-cdw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Alarm" id="2xu-jN-88c">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="fVR-FF-38S">
+                            <color key="tintColor" systemColor="systemOrangeColor"/>
+                            <connections>
+                                <action selector="touchUpCancleButton" destination="HrQ-0t-7J6" id="1eH-fF-HVN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="7zN-DL-Ngu">
+                            <color key="tintColor" systemColor="systemOrangeColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQu-7X-tYD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777.5" y="2475"/>
+        </scene>
         <!--Alarm-->
         <scene sceneID="qWM-ok-Qly">
             <objects>
@@ -138,11 +175,18 @@
                         <viewLayoutGuide key="safeArea" id="Mda-I0-swT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm.fill" catalog="system" id="irU-CC-ygD"/>
+                    <navigationItem key="navigationItem" title="Alarm" id="4DT-cG-Khm">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Lm9-84-JEF">
+                            <color key="tintColor" systemColor="systemOrangeColor"/>
+                            <connections>
+                                <segue destination="u8O-or-z6Q" kind="presentation" id="B1c-WE-jMT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Jr-dq-NPA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2754.4000000000001" y="32.512315270935964"/>
+            <point key="canvasLocation" x="1779" y="929"/>
         </scene>
         <!--Stopwatch-->
         <scene sceneID="zvj-0q-YIh">
@@ -158,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mu1-IH-Tic" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3757.5999999999999" y="32.512315270935964"/>
+            <point key="canvasLocation" x="4755" y="31.690140845070424"/>
         </scene>
         <!--Timer-->
         <scene sceneID="YuM-jT-U97">
@@ -174,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ig-bI-ddb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4693.6000000000004" y="32.512315270935964"/>
+            <point key="canvasLocation" x="5690.625" y="31.690140845070424"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="IKK-F3-9yi">
@@ -189,7 +233,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="HvF-YZ-ctH" kind="relationship" relationship="viewControllers" id="I3V-Gd-Unl"/>
-                        <segue destination="AKm-KJ-bK7" kind="relationship" relationship="viewControllers" id="Ekv-Lj-J5W"/>
+                        <segue destination="F5V-uk-8mX" kind="relationship" relationship="viewControllers" id="Ekv-Lj-J5W"/>
                         <segue destination="MJy-VS-KTk" kind="relationship" relationship="viewControllers" id="uga-nk-b3S"/>
                         <segue destination="xsu-mu-EXD" kind="relationship" relationship="viewControllers" id="iva-XJ-sbK"/>
                     </connections>
@@ -216,6 +260,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Rx-D7-J7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="834.39999999999998" y="32.512315270935964"/>
+        </scene>
+        <!--Alarm-->
+        <scene sceneID="cvN-TA-AZ6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F5V-uk-8mX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm.fill" catalog="system" id="irU-CC-ygD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="3OV-ZL-7OB">
+                        <rect key="frame" x="0.0" y="20" width="320" height="92.5"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AKm-KJ-bK7" kind="relationship" relationship="rootViewController" id="K5u-2n-cPn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t35-SL-u9m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779" y="32"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YXw-ET-JtQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u8O-or-z6Q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ntz-th-ebn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HrQ-0t-7J6" kind="relationship" relationship="rootViewController" id="ZxN-gz-dN7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OxX-rD-pJu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777.5" y="1667.9577464788733"/>
         </scene>
     </scenes>
     <resources>

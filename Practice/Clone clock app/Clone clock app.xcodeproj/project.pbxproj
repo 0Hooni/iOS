@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		055ADA1C2A235F5400BA4585 /* AddCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */; };
+		057F744E2A2482E1003CFC80 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057F744D2A2482E1003CFC80 /* AddAlarmViewController.swift */; };
 		05D01E052A21D0E6001C283D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E042A21D0E6001C283D /* AppDelegate.swift */; };
 		05D01E072A21D0E6001C283D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E062A21D0E6001C283D /* SceneDelegate.swift */; };
 		05D01E092A21D0E6001C283D /* GlobalTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D01E082A21D0E6001C283D /* GlobalTimeViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountryViewController.swift; sourceTree = "<group>"; };
 		055ADA1F2A236A1000BA4585 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		057F744D2A2482E1003CFC80 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
 		05D01E012A21D0E6001C283D /* Clone clock app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone clock app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D01E042A21D0E6001C283D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D01E062A21D0E6001C283D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				05D01E232A21EDE0001C283D /* StopwatchViewController.swift */,
 				05D01E252A21EDE9001C283D /* TimerViewController.swift */,
 				055ADA1B2A235F5400BA4585 /* AddCountryViewController.swift */,
+				057F744D2A2482E1003CFC80 /* AddAlarmViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				055ADA1C2A235F5400BA4585 /* AddCountryViewController.swift in Sources */,
 				05D01E092A21D0E6001C283D /* GlobalTimeViewController.swift in Sources */,
 				05D01E242A21EDE0001C283D /* StopwatchViewController.swift in Sources */,
+				057F744E2A2482E1003CFC80 /* AddAlarmViewController.swift in Sources */,
 				05D01E052A21D0E6001C283D /* AppDelegate.swift in Sources */,
 				05D01E262A21EDE9001C283D /* TimerViewController.swift in Sources */,
 				05D01E072A21D0E6001C283D /* SceneDelegate.swift in Sources */,

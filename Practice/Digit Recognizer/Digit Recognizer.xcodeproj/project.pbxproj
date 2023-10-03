@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FEB5462AC149FF00D1FA4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEB5452AC149FF00D1FA4C /* AppDelegate.swift */; };
-		05FEB5482AC149FF00D1FA4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEB5472AC149FF00D1FA4C /* ContentView.swift */; };
-		05FEB54A2AC14A0000D1FA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FEB5492AC14A0000D1FA4C /* Assets.xcassets */; };
-		05FEB54D2AC14A0000D1FA4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FEB54C2AC14A0000D1FA4C /* Preview Assets.xcassets */; };
+		05328F642AC3E5B60054CE01 /* Digit_recognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */; };
+		05328F662AC3E5B60054CE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05328F652AC3E5B60054CE01 /* ContentView.swift */; };
+		05328F682AC3E5B70054CE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05328F672AC3E5B70054CE01 /* Assets.xcassets */; };
+		05328F6B2AC3E5B70054CE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */; };
+		0556ADD82ACC02E000CE657D /* MNISTClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05FEB5422AC149FF00D1FA4C /* Digit recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digit recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05FEB5452AC149FF00D1FA4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05FEB5472AC149FF00D1FA4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05FEB5492AC14A0000D1FA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05FEB54C2AC14A0000D1FA4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05328F602AC3E5B60054CE01 /* Digit recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digit recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit_recognizerApp.swift; sourceTree = "<group>"; };
+		05328F652AC3E5B60054CE01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05328F672AC3E5B70054CE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MNISTClassifier.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05FEB53F2AC149FF00D1FA4C /* Frameworks */ = {
+		05328F5D2AC3E5B60054CE01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05FEB5392AC149FF00D1FA4C = {
+		05328F572AC3E5B60054CE01 = {
 			isa = PBXGroup;
 			children = (
-				05FEB5442AC149FF00D1FA4C /* Digit recognizer */,
-				05FEB5432AC149FF00D1FA4C /* Products */,
+				05328F622AC3E5B60054CE01 /* Digit recognizer */,
+				05328F612AC3E5B60054CE01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05FEB5432AC149FF00D1FA4C /* Products */ = {
+		05328F612AC3E5B60054CE01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05FEB5422AC149FF00D1FA4C /* Digit recognizer.app */,
+				05328F602AC3E5B60054CE01 /* Digit recognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05FEB5442AC149FF00D1FA4C /* Digit recognizer */ = {
+		05328F622AC3E5B60054CE01 /* Digit recognizer */ = {
 			isa = PBXGroup;
 			children = (
-				05FEB5452AC149FF00D1FA4C /* AppDelegate.swift */,
-				05FEB5472AC149FF00D1FA4C /* ContentView.swift */,
-				05FEB5492AC14A0000D1FA4C /* Assets.xcassets */,
-				05FEB54B2AC14A0000D1FA4C /* Preview Content */,
+				0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */,
+				05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */,
+				05328F652AC3E5B60054CE01 /* ContentView.swift */,
+				05328F672AC3E5B70054CE01 /* Assets.xcassets */,
+				05328F692AC3E5B70054CE01 /* Preview Content */,
 			);
 			path = "Digit recognizer";
 			sourceTree = "<group>";
 		};
-		05FEB54B2AC14A0000D1FA4C /* Preview Content */ = {
+		05328F692AC3E5B70054CE01 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05FEB54C2AC14A0000D1FA4C /* Preview Assets.xcassets */,
+				05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05FEB5412AC149FF00D1FA4C /* Digit recognizer */ = {
+		05328F5F2AC3E5B60054CE01 /* Digit recognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FEB5502AC14A0000D1FA4C /* Build configuration list for PBXNativeTarget "Digit recognizer" */;
+			buildConfigurationList = 05328F6E2AC3E5B70054CE01 /* Build configuration list for PBXNativeTarget "Digit recognizer" */;
 			buildPhases = (
-				05FEB53E2AC149FF00D1FA4C /* Sources */,
-				05FEB53F2AC149FF00D1FA4C /* Frameworks */,
-				05FEB5402AC149FF00D1FA4C /* Resources */,
+				05328F5C2AC3E5B60054CE01 /* Sources */,
+				05328F5D2AC3E5B60054CE01 /* Frameworks */,
+				05328F5E2AC3E5B60054CE01 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +87,25 @@
 			);
 			name = "Digit recognizer";
 			productName = "Digit recognizer";
-			productReference = 05FEB5422AC149FF00D1FA4C /* Digit recognizer.app */;
+			productReference = 05328F602AC3E5B60054CE01 /* Digit recognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05FEB53A2AC149FF00D1FA4C /* Project object */ = {
+		05328F582AC3E5B60054CE01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					05FEB5412AC149FF00D1FA4C = {
+					05328F5F2AC3E5B60054CE01 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 05FEB53D2AC149FF00D1FA4C /* Build configuration list for PBXProject "Digit recognizer" */;
+			buildConfigurationList = 05328F5B2AC3E5B60054CE01 /* Build configuration list for PBXProject "Digit recognizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 05FEB5392AC149FF00D1FA4C;
-			productRefGroup = 05FEB5432AC149FF00D1FA4C /* Products */;
+			mainGroup = 05328F572AC3E5B60054CE01;
+			productRefGroup = 05328F612AC3E5B60054CE01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05FEB5412AC149FF00D1FA4C /* Digit recognizer */,
+				05328F5F2AC3E5B60054CE01 /* Digit recognizer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05FEB5402AC149FF00D1FA4C /* Resources */ = {
+		05328F5E2AC3E5B60054CE01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FEB54D2AC14A0000D1FA4C /* Preview Assets.xcassets in Resources */,
-				05FEB54A2AC14A0000D1FA4C /* Assets.xcassets in Resources */,
+				05328F6B2AC3E5B70054CE01 /* Preview Assets.xcassets in Resources */,
+				05328F682AC3E5B70054CE01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05FEB53E2AC149FF00D1FA4C /* Sources */ = {
+		05328F5C2AC3E5B60054CE01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FEB5482AC149FF00D1FA4C /* ContentView.swift in Sources */,
-				05FEB5462AC149FF00D1FA4C /* AppDelegate.swift in Sources */,
+				0556ADD82ACC02E000CE657D /* MNISTClassifier.mlpackage in Sources */,
+				05328F662AC3E5B60054CE01 /* ContentView.swift in Sources */,
+				05328F642AC3E5B60054CE01 /* Digit_recognizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05FEB54E2AC14A0000D1FA4C /* Debug */ = {
+		05328F6C2AC3E5B70054CE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		05FEB54F2AC14A0000D1FA4C /* Release */ = {
+		05328F6D2AC3E5B70054CE01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +268,7 @@
 			};
 			name = Release;
 		};
-		05FEB5512AC14A0000D1FA4C /* Debug */ = {
+		05328F6F2AC3E5B70054CE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -276,10 +280,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.Digit-recognizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		05FEB5522AC14A0000D1FA4C /* Release */ = {
+		05328F702AC3E5B70054CE01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,10 +310,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.Digit-recognizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05FEB53D2AC149FF00D1FA4C /* Build configuration list for PBXProject "Digit recognizer" */ = {
+		05328F5B2AC3E5B60054CE01 /* Build configuration list for PBXProject "Digit recognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05FEB54E2AC14A0000D1FA4C /* Debug */,
-				05FEB54F2AC14A0000D1FA4C /* Release */,
+				05328F6C2AC3E5B70054CE01 /* Debug */,
+				05328F6D2AC3E5B70054CE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FEB5502AC14A0000D1FA4C /* Build configuration list for PBXNativeTarget "Digit recognizer" */ = {
+		05328F6E2AC3E5B70054CE01 /* Build configuration list for PBXNativeTarget "Digit recognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05FEB5512AC14A0000D1FA4C /* Debug */,
-				05FEB5522AC14A0000D1FA4C /* Release */,
+				05328F6F2AC3E5B70054CE01 /* Debug */,
+				05328F702AC3E5B70054CE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05FEB53A2AC149FF00D1FA4C /* Project object */;
+	rootObject = 05328F582AC3E5B60054CE01 /* Project object */;
 }

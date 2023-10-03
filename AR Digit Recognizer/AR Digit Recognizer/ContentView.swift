@@ -51,9 +51,9 @@ class ARFrameRequest: ARView, ARSessionDelegate {
     func getPrediction(didUpdate frame: ARFrame) {
         let framePixelBuffer = frame.capturedImage
         guard let output = try? model.prediction(image: framePixelBuffer) else {
-//            fatalError("DEBUG: Load Output Error")
-            print("DEBUG: Load Output Error")
-            return
+            fatalError("DEBUG: Load Output Error")
+            // print("DEBUG: Load Output Error")
+            // return
         }
         result = output.classLabel
     }

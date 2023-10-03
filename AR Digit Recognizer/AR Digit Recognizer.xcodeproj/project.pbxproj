@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05328F642AC3E5B60054CE01 /* Digit_recognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */; };
-		05328F662AC3E5B60054CE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05328F652AC3E5B60054CE01 /* ContentView.swift */; };
-		05328F682AC3E5B70054CE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05328F672AC3E5B70054CE01 /* Assets.xcassets */; };
-		05328F6B2AC3E5B70054CE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */; };
-		0556ADD82ACC02E000CE657D /* MNISTClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */; };
+		0537875E2ACC34B70087F0BB /* AR_Digit_RecognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537875D2ACC34B70087F0BB /* AR_Digit_RecognizerApp.swift */; };
+		053787602ACC34B70087F0BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537875F2ACC34B70087F0BB /* ContentView.swift */; };
+		053787622ACC34B80087F0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053787612ACC34B80087F0BB /* Assets.xcassets */; };
+		053787652ACC34B80087F0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053787642ACC34B80087F0BB /* Preview Assets.xcassets */; };
+		0537876C2ACC35050087F0BB /* MNISTClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 0537876B2ACC35050087F0BB /* MNISTClassifier.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05328F602AC3E5B60054CE01 /* Digit recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digit recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit_recognizerApp.swift; sourceTree = "<group>"; };
-		05328F652AC3E5B60054CE01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05328F672AC3E5B70054CE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MNISTClassifier.mlpackage; sourceTree = "<group>"; };
+		0537875A2ACC34B70087F0BB /* AR Digit Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Digit Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0537875D2ACC34B70087F0BB /* AR_Digit_RecognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Digit_RecognizerApp.swift; sourceTree = "<group>"; };
+		0537875F2ACC34B70087F0BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		053787612ACC34B80087F0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		053787642ACC34B80087F0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0537876B2ACC35050087F0BB /* MNISTClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MNISTClassifier.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05328F5D2AC3E5B60054CE01 /* Frameworks */ = {
+		053787572ACC34B70087F0BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05328F572AC3E5B60054CE01 = {
+		053787512ACC34B70087F0BB = {
 			isa = PBXGroup;
 			children = (
-				05328F622AC3E5B60054CE01 /* Digit recognizer */,
-				05328F612AC3E5B60054CE01 /* Products */,
+				0537875C2ACC34B70087F0BB /* AR Digit Recognizer */,
+				0537875B2ACC34B70087F0BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05328F612AC3E5B60054CE01 /* Products */ = {
+		0537875B2ACC34B70087F0BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05328F602AC3E5B60054CE01 /* Digit recognizer.app */,
+				0537875A2ACC34B70087F0BB /* AR Digit Recognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05328F622AC3E5B60054CE01 /* Digit recognizer */ = {
+		0537875C2ACC34B70087F0BB /* AR Digit Recognizer */ = {
 			isa = PBXGroup;
 			children = (
-				0556ADD72ACC02E000CE657D /* MNISTClassifier.mlpackage */,
-				05328F632AC3E5B60054CE01 /* Digit_recognizerApp.swift */,
-				05328F652AC3E5B60054CE01 /* ContentView.swift */,
-				05328F672AC3E5B70054CE01 /* Assets.xcassets */,
-				05328F692AC3E5B70054CE01 /* Preview Content */,
+				0537876B2ACC35050087F0BB /* MNISTClassifier.mlpackage */,
+				0537875D2ACC34B70087F0BB /* AR_Digit_RecognizerApp.swift */,
+				0537875F2ACC34B70087F0BB /* ContentView.swift */,
+				053787612ACC34B80087F0BB /* Assets.xcassets */,
+				053787632ACC34B80087F0BB /* Preview Content */,
 			);
-			path = "Digit recognizer";
+			path = "AR Digit Recognizer";
 			sourceTree = "<group>";
 		};
-		05328F692AC3E5B70054CE01 /* Preview Content */ = {
+		053787632ACC34B80087F0BB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05328F6A2AC3E5B70054CE01 /* Preview Assets.xcassets */,
+				053787642ACC34B80087F0BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +73,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05328F5F2AC3E5B60054CE01 /* Digit recognizer */ = {
+		053787592ACC34B70087F0BB /* AR Digit Recognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05328F6E2AC3E5B70054CE01 /* Build configuration list for PBXNativeTarget "Digit recognizer" */;
+			buildConfigurationList = 053787682ACC34B80087F0BB /* Build configuration list for PBXNativeTarget "AR Digit Recognizer" */;
 			buildPhases = (
-				05328F5C2AC3E5B60054CE01 /* Sources */,
-				05328F5D2AC3E5B60054CE01 /* Frameworks */,
-				05328F5E2AC3E5B60054CE01 /* Resources */,
+				053787562ACC34B70087F0BB /* Sources */,
+				053787572ACC34B70087F0BB /* Frameworks */,
+				053787582ACC34B70087F0BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Digit recognizer";
-			productName = "Digit recognizer";
-			productReference = 05328F602AC3E5B60054CE01 /* Digit recognizer.app */;
+			name = "AR Digit Recognizer";
+			productName = "AR Digit Recognizer";
+			productReference = 0537875A2ACC34B70087F0BB /* AR Digit Recognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05328F582AC3E5B60054CE01 /* Project object */ = {
+		053787522ACC34B70087F0BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					05328F5F2AC3E5B60054CE01 = {
+					053787592ACC34B70087F0BB = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 05328F5B2AC3E5B60054CE01 /* Build configuration list for PBXProject "Digit recognizer" */;
+			buildConfigurationList = 053787552ACC34B70087F0BB /* Build configuration list for PBXProject "AR Digit Recognizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 05328F572AC3E5B60054CE01;
-			productRefGroup = 05328F612AC3E5B60054CE01 /* Products */;
+			mainGroup = 053787512ACC34B70087F0BB;
+			productRefGroup = 0537875B2ACC34B70087F0BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05328F5F2AC3E5B60054CE01 /* Digit recognizer */,
+				053787592ACC34B70087F0BB /* AR Digit Recognizer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05328F5E2AC3E5B60054CE01 /* Resources */ = {
+		053787582ACC34B70087F0BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05328F6B2AC3E5B70054CE01 /* Preview Assets.xcassets in Resources */,
-				05328F682AC3E5B70054CE01 /* Assets.xcassets in Resources */,
+				053787652ACC34B80087F0BB /* Preview Assets.xcassets in Resources */,
+				053787622ACC34B80087F0BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05328F5C2AC3E5B60054CE01 /* Sources */ = {
+		053787562ACC34B70087F0BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0556ADD82ACC02E000CE657D /* MNISTClassifier.mlpackage in Sources */,
-				05328F662AC3E5B60054CE01 /* ContentView.swift in Sources */,
-				05328F642AC3E5B60054CE01 /* Digit_recognizerApp.swift in Sources */,
+				053787602ACC34B70087F0BB /* ContentView.swift in Sources */,
+				0537875E2ACC34B70087F0BB /* AR_Digit_RecognizerApp.swift in Sources */,
+				0537876C2ACC35050087F0BB /* MNISTClassifier.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05328F6C2AC3E5B70054CE01 /* Debug */ = {
+		053787662ACC34B80087F0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		05328F6D2AC3E5B70054CE01 /* Release */ = {
+		053787672ACC34B80087F0BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,29 +268,31 @@
 			};
 			name = Release;
 		};
-		05328F6F2AC3E5B70054CE01 /* Debug */ = {
+		053787692ACC34B80087F0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Digit recognizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AR Digit Recognizer/Preview Content\"";
 				DEVELOPMENT_TEAM = 9JZYRP3D46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR 숫자인식";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.AR-Digit-Recognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,29 +300,31 @@
 			};
 			name = Debug;
 		};
-		05328F702AC3E5B70054CE01 /* Release */ = {
+		0537876A2ACC34B80087F0BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Digit recognizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AR Digit Recognizer/Preview Content\"";
 				DEVELOPMENT_TEAM = 9JZYRP3D46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR 숫자인식";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.0Hooni;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0Hooni.AR-Digit-Recognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05328F5B2AC3E5B60054CE01 /* Build configuration list for PBXProject "Digit recognizer" */ = {
+		053787552ACC34B70087F0BB /* Build configuration list for PBXProject "AR Digit Recognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05328F6C2AC3E5B70054CE01 /* Debug */,
-				05328F6D2AC3E5B70054CE01 /* Release */,
+				053787662ACC34B80087F0BB /* Debug */,
+				053787672ACC34B80087F0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05328F6E2AC3E5B70054CE01 /* Build configuration list for PBXNativeTarget "Digit recognizer" */ = {
+		053787682ACC34B80087F0BB /* Build configuration list for PBXNativeTarget "AR Digit Recognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05328F6F2AC3E5B70054CE01 /* Debug */,
-				05328F702AC3E5B70054CE01 /* Release */,
+				053787692ACC34B80087F0BB /* Debug */,
+				0537876A2ACC34B80087F0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05328F582AC3E5B60054CE01 /* Project object */;
+	rootObject = 053787522ACC34B70087F0BB /* Project object */;
 }

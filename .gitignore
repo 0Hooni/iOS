@@ -89,3 +89,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 Rising Camp/CoupangEats Clone/CoupangEats Clone.xcodeproj/project.pbxproj
+.DS_Store
